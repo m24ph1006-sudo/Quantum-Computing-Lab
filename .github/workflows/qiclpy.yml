@@ -31,6 +31,7 @@ jobs:
 
       - name: Install nbqa and pylint
         run: uv add nbqa pylint --dev
+             uv add pandas
 
       # --- Setup Node.js for markdown linting ---
       - name: Setup Node.js
