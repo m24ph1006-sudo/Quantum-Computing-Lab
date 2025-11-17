@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           uv sync
-          uv add nbqa pylint
+          uv add nbqa pylint projectq
 
           
       - name: Analysing the code with pylint
