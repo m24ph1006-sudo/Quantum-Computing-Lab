@@ -24,8 +24,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install uv
-        run: pip install uv
-             pip install seaborn projectq 
+        run: pip install uv seaborn projectq 
 
       - name: Sync dependencies
         run: uv sync
